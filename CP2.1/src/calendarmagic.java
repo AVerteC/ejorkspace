@@ -2,6 +2,8 @@ import java.util.Calendar;
 import java.util.GregorianCalendar;
 
 public class calendarmagic {
+    private String weekday;
+
     public static void main (String [] args) {
         GregorianCalendar cal = new GregorianCalendar();
 
@@ -12,39 +14,34 @@ public class calendarmagic {
         int year = cal.get(Calendar.YEAR);
         String wkday = "";
 
-        if(weekday == 1)
-        {
+
+        public void daychanger(String weekday) {
+            this.weekday = weekday;
+            if (weekday == 1) {
             wkday = "Sunday";
         }
 
-        if(weekday == 2)
-        {
-            wkday = "Monday";
-        }
+        if (weekday == 2) wkday = "Monday";
 
-        if(weekday == 3)
-        {
+        if (weekday == 3) {
             wkday = "Tuesday";
         }
 
-        if(weekday == 4)
-        {
+        if (weekday == 4) {
             wkday = "Wednesday";
         }
 
-        if(weekday == 5)
-        {
+        if (weekday == 5) {
             wkday = "Thursday";
         }
 
-        if(weekday == 6)
-        {
+        if (weekday == 6) {
             wkday = "Friday";
         }
 
-        if(weekday == 7)
-        {
+        if (weekday == 7) {
             wkday = "Saturday";
+        }
         }
         System.out.println(String.format("%d / %d / %d | weekday: %s", month, dayMonth, year, wkday));
 
