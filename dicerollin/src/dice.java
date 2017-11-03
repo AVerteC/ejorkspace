@@ -1,5 +1,6 @@
+import javax.swing.*;
 import java.util.Random;
-import java.util.Scanner;
+
 
 
 public class dice
@@ -27,6 +28,13 @@ public class dice
         return temp;
     }
 
+    public int HRoll()
+    {
+        int temp = gen.nextInt(numsides) + 1;
+        numrolls++;
+        return temp;
+    }
+
     public int getNumRolls()
     {
         return numrolls;
@@ -34,11 +42,14 @@ public class dice
 
 
     public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("How many rolls?");
-        int noroll = sc.nextInt();
-        for(int i = 0; i<noroll;i++)
-        {}
+        String firstNumber = JOptionPane.showInputDialog("How many times would you like to roll the dice?");
+        int num1 = Integer.parseInt(firstNumber);
+        dice boi = new dice();
+        for(int i = 0; i<num1;i++)
+        {
+            System.out.println(boi.HRoll());
+            //System.out.println("yo yo yo");
+        }
         //dice banther = new dice();
         //dice me = new dice(4);
 
