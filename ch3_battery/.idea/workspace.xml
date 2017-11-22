@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b7711613-70b5-4db2-ba3b-f1dd3859f9ff" name="Default" comment="Finished 1 of 3 excercises for the ch3 excercises">
+    <list default="true" id="b7711613-70b5-4db2-ba3b-f1dd3859f9ff" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/battery.java" afterPath="$PROJECT_DIR$/src/battery.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -217,6 +216,14 @@
       <option name="presentableId" value="Default" />
       <updated>1510682248225</updated>
     </task>
+    <task id="LOCAL-00001" summary="Finished 1 of 3 excercises for the ch3 excercises">
+      <created>1511318506111</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1511318506111</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
