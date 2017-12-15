@@ -13,7 +13,7 @@ get maximum of each row  - push each one to new array
 take the new maximum array and get the minimum of the total arrays
  */
 
-    Scanner ln = new Scanner(System.in);
+  /*  Scanner ln = new Scanner(System.in);
     int N = in.nextint();
 
     for(int i = 0; i<N; i++){
@@ -28,3 +28,13 @@ take the new maximum array and get the minimum of the total arrays
 
 
 }
+*/
+
+
+      public static void main(String[] args) {
+          System.out.print("101".compareTo("11"));
+
+      }
+
+}
+
